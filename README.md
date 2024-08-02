@@ -9,6 +9,10 @@
 이 프로젝트는 아래 프로젝트에 대한 위험한 코드에 대한 패치를 진행한 후 공유되는 소스코드입니다.    
 https://github.com/LFYG/restclient-cpp
 
+## Refactoring
+- 생성자 초기화 리스트 ( 단순 워닝 제거 )
+- Incremental Jump ( goto 문으로 인한 위로 점프 시, Scope Unsafe 로 인한 Stack 흐름에 대한 영향이 있을 수 있음 )
+
 ## Env
 C++17
 
